@@ -37,7 +37,7 @@ Tu ouvres un terminal dans VS Code :
 
 Puis tu tapes :
 ```bash
-git clone lien_du_repo
+git clone https://github.com/Kewij/BBourse.git
 ```
 
 Ensuite tu vas dans le dossier du projet :
