@@ -6,13 +6,13 @@ Petit tuto pour faire tourner l’application en local.
 
 ## 1) Installer Node.js
 
-Si c’est pas déjà fait évidemment, tu télécharges Node.js ici :  
+Si c’est pas déjà fait, tu télécharges Node.js ici :  
 👉 https://nodejs.org
 
 > 🛠 Pendant l’installation, pense à cocher “Add to PATH” si c’est proposé.  
 > Ça permet de l’utiliser dans ton terminal directement.
 
-Ensuite tu vérifies que tout roule avec ces commandes :
+Ensuite tu vérifies que tout marche avec ces commandes :
 
 ```bash
 node -v
@@ -37,7 +37,7 @@ Tu ouvres un terminal dans VS Code :
 
 Puis tu tapes :
 ```bash
-git clone https://github.com/Kewij/BBourse.git
+git clone https://github.com/plevankiem/BBourse.git
 ```
 
 Ensuite tu vas dans le dossier du projet :
@@ -61,11 +61,11 @@ Et maintenant, pour lancer l’app, tu fais simplement :
 npm start
 ```
 
-## 6) Acti tradi
-Une glotte pour toutes celles et ceux qui ont touché à ce tutoriel.
+## 6) Les Chevaliers Du BB
+Une glotte pour les gens qui ont touché à ce tutoriel.
 
 Si une personne fait moins de 5s :
 - Elle est en open sur KBB toute la soirée
 
 Si une personne fait plus de 8s :
-- Elle prend un Jacques Mayol
+- Le plus gros buveur du binet est en open sur son trigramme toute la soirée
