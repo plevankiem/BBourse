@@ -1,0 +1,24 @@
+{
+  "name": "bbourse",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron main.js",
+    "reset": "rimraf beer-market.db beers.json minmaxPrices.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chart.js": "^4.4.6",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "electron": "^33.0.2",
+    "fs": "^0.0.1-security",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "rimraf": "^6.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'">
+  <title>BBourse</title>
+  <link href="./style.css" rel="stylesheet">
+  <script src="node_modules/chart.js/dist/chart.umd.js"></script>
+  <script src="node_modules/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BBourse</h1>
+  </header>
+  <div>
+    <ul id="beer-list"></ul>
+  </div>
+  <canvas id="priceChart" width="400" height="125"></canvas>
+  <script src="./index.js"></script>
+</body>
+</html>

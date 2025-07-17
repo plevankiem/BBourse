@@ -1,0 +1,5 @@
+node_modules/
+
+beer-market.db
+minmaxPrices.json
+beers.json
