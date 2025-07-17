@@ -12,7 +12,7 @@ Si c’est pas déjà fait, tu télécharges Node.js ici :
 > 🛠 Pendant l’installation, pense à cocher “Add to PATH” si c’est proposé.  
 > Ça permet de l’utiliser dans ton terminal directement.
 
-Ensuite tu vérifies que tout marche avec ces commandes :
+Ensuite tu vérifies que tout marche en tapant ces commandes dans ton terminal :
 
 ```bash
 node -v
