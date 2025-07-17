@@ -49,9 +49,9 @@ cd BBourse
 
 Toujours dans le terminal, tu tapes :
 ```bash
-npm install electron --save-dev
+npm install
 ```
-Ça va installer Electron dans le projet.
+Ça va installer les modules nécessaires pour faire tourner l'app.
 > 🧠 Si jamais y’a un fichier package-lock.json ou un dossier node_modules, c’est que ça a bien marché.
 
 ## 5) Lancer l'appli
@@ -61,7 +61,14 @@ Et maintenant, pour lancer l’app, tu fais simplement :
 npm start
 ```
 
-## 6) Les Chevaliers Du BB
+## 6) Fermer l'app et reset les prix
+Pour fermer l'app, tu as juste à appuyer sur la croix, ou à faire Ctrl + C dans ton terminal.
+Quand tu relances l'app, les données ont été sauvegardées, donc si jamais tu veux reset les données, tu peux taper (après avoir fermé l'app) :
+```bash
+npm run reset
+```
+
+## Bonus: Les Chevaliers Du BB
 Une glotte pour les gens qui ont touché à ce tutoriel.
 
 Si une personne fait moins de 5s :
