@@ -61,6 +61,11 @@ Et maintenant, pour lancer l’app, tu fais simplement :
 npm start
 ```
 
+Normalement, tu devrais voir l'application. Si ça marche pas, fais plutôt
+```bash
+npx electron --no-sandbox main.js
+```
+
 ## 6) Fermer l'app et reset les prix
 Pour fermer l'app, tu as juste à appuyer sur la croix, ou à faire Ctrl + C dans ton terminal.
 Quand tu relances l'app, les données ont été sauvegardées, donc si jamais tu veux reset les données, tu peux taper (après avoir fermé l'app) :
