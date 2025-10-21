@@ -72,6 +72,3 @@ Quand tu relances l'app, les données ont été sauvegardées, donc si jamais tu
 ```bash
 npm run reset
 ```
-
-Si une personne fait plus de 8s :
-- Le plus gros buveur du binet est en open sur son trigramme toute la soirée
