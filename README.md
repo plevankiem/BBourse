@@ -51,10 +51,41 @@ Toujours dans le terminal, tu tapes :
 ```bash
 npm install
 ```
-Ça va installer les modules nécessaires pour faire tourner l'app.
+Ça va installer les modules nécessaires pour faire tourner l'app. Il peut y avoir des warnings lors de l'installation. On s'en fout tant que l'app tourne.
 > 🧠 Si jamais y’a un fichier package-lock.json ou un dossier node_modules, c’est que ça a bien marché.
 
-## 5) Lancer l'appli
+## 5) Mettre la carte
+
+J'ai laissé les bières de mon année. Pour les changer, il faut modifier 2 endroits. Je me suis un peu branlé, j'aurais pu faire un truc plus simple.
+
+Là, y a juste à modifier les noms. Faut pas mettre des noms trop longs sinon ça sort des cartes c'est cheum.
+
+### `main.js` (Lignes 8-13)
+
+```bash
+const beer1 = "Cuvée";
+const beer2 = "Lagunitas";
+const beer3 = "Blanche";
+const beer4 = "Kasteel";
+const beer5 = "Chouffe";
+const beer6 = "Chimay";
+```
+
+### `index.js` (Lignes 9-14)
+```bash
+const beer1 = "Cuvée";
+const beer2 = "Lagunitas";
+const beer3 = "Blanche";
+const beer4 = "Kasteel";
+const beer5 = "Chouffe";
+const beer6 = "Chimay";
+```
+
+❌​❌​❌​ Faut ABSOLUMENT que les noms collent. Genre faut pas mettre `const beer1 = "Kro"` dans un fichier et `const beer1 = "Despe"` dans l'autre.
+
+Si jamais vous faites de la merde à ce moment et que ça marche plus, supprimez tout le dossier et reprenez le tuto au 3)
+
+## 6) Lancer l'appli
 
 Et maintenant, pour lancer l’app, tu fais simplement :
 ```bash
@@ -66,7 +97,7 @@ Normalement, tu devrais voir l'application. Si ça marche pas, fais plutôt
 npx electron --no-sandbox main.js
 ```
 
-## 6) Fermer l'app et reset les prix
+## 7) Fermer l'app et reset les prix
 Pour fermer l'app, tu as juste à appuyer sur la croix, ou à faire Ctrl + C dans ton terminal.
 Quand tu relances l'app, les données ont été sauvegardées, donc si jamais tu veux reset les données, tu peux taper (après avoir fermé l'app) :
 ```bash
