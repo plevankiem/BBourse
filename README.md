@@ -58,7 +58,7 @@ npm install
 
 J'ai laissé les bières de mon année. Pour les changer, il faut modifier 2 endroits. Je me suis un peu branlé, j'aurais pu faire un truc plus simple.
 
-Là, y a juste à modifier les noms. Faut pas mettre des noms trop longs sinon ça sort des cartes c'est cheum.
+Là, y a juste à modifier les noms. Faut pas mettre des noms trop longs sinon ça sort des cartes c'est cheum. Ne **surtout pas** oublier de faire `CTRL+S` pour sauvegarder les fichiers une fois qu'ils ont été modifiés.
 
 ### `main.js` (Lignes 8-13)
 
