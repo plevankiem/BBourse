@@ -73,11 +73,5 @@ Quand tu relances l'app, les données ont été sauvegardées, donc si jamais tu
 npm run reset
 ```
 
-## Bonus: Les Chevaliers Du BB
-Une glotte pour les gens qui ont touché à ce tutoriel.
-
-Si une personne fait moins de 5s :
-- Elle est en open sur KBB toute la soirée
-
 Si une personne fait plus de 8s :
 - Le plus gros buveur du binet est en open sur son trigramme toute la soirée
